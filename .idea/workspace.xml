@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="587f081e-1cc6-4b81-8f44-2304df0f9330" name="Default Changelist" comment="new test">
+      <change afterPath="$PROJECT_DIR$/src/reducer/todolist-reducer.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducer/todolist-reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test.02/02.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.02/02.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test.02/02.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.02/02.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test.02/02_02.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.02/02_02.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,18 +32,44 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../probnik" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="ts.external.directory.path" value="E:\it-kamasutra.com\test-file-git\test\node_modules\typescript\lib" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="E:\it-kamasutra.com\project-Git\test-file-git\test\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\it-kamasutra.com\test-file-git\test\src\test\reducer.test" />
       <recent name="E:\it-kamasutra.com\test-file-git\test\src\test" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\it-kamasutra.com\project-Git\test-file-git\test\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="correct todolist should be removed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/reducer/todolist-reducer.test.ts" />
+      <test-names>
+        <test-name value="correct todolist should be removed" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.correct todolist should be removed" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -51,6 +82,8 @@
       <workItem from="1630432777000" duration="53000" />
       <workItem from="1630480486945" duration="1572000" />
       <workItem from="1630577636839" duration="1395000" />
+      <workItem from="1631084466466" duration="917000" />
+      <workItem from="1645445232453" duration="473000" />
     </task>
     <task id="LOCAL-00001" summary="new test">
       <created>1630481308113</created>
@@ -66,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630577874097</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new test">
+      <created>1631084729787</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1631084729787</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

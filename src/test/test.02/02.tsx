@@ -1,4 +1,4 @@
-type LocalCityType = {
+ type LocalCityType = {
     title: string
     countyTitle: string
 }
@@ -11,7 +11,7 @@ type TechType = {
     id: number
     title: string
 }
-type StudentType = {
+export type StudentType = {
     id: number
     name:string
     age: number
@@ -20,8 +20,7 @@ type StudentType = {
     technologies: Array<TechType>
 }
 
-
-const student:StudentType = {
+ const student:StudentType = {
     id: 1,
     name: "Oleg",
     age: 32,
