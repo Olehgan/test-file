@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="587f081e-1cc6-4b81-8f44-2304df0f9330" name="Default Changelist" comment="new test">
-      <change afterPath="$PROJECT_DIR$/src/reducer/todolist-reducer.test.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/reducer/todolist-reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test.02/02.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.02/02.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test.02/02.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.02/02.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test.02/02_02.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.02/02_02.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducer/todolist-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducer/todolist-reducer.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../socialNetwork-git/socialNetwork" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -83,7 +80,7 @@
       <workItem from="1630480486945" duration="1572000" />
       <workItem from="1630577636839" duration="1395000" />
       <workItem from="1631084466466" duration="917000" />
-      <workItem from="1645445232453" duration="473000" />
+      <workItem from="1645445232453" duration="3031000" />
     </task>
     <task id="LOCAL-00001" summary="new test">
       <created>1630481308113</created>
@@ -106,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631084729787</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added to todolist-reducer removeTodolistAC">
+      <created>1645445758672</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1645445758673</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new test" />
-    <option name="LAST_COMMIT_MESSAGE" value="new test" />
+    <MESSAGE value="added to todolist-reducer removeTodolistAC" />
+    <option name="LAST_COMMIT_MESSAGE" value="added to todolist-reducer removeTodolistAC" />
   </component>
 </project>
