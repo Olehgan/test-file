@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="587f081e-1cc6-4b81-8f44-2304df0f9330" name="Default Changelist" comment="new test">
-      <change afterPath="$PROJECT_DIR$/src/reducer/todolist-reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducer/todolist-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducer/todolist-reducer.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducer/todolist-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducer/todolist-reducer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <workItem from="1630577636839" duration="1395000" />
       <workItem from="1631084466466" duration="917000" />
       <workItem from="1645445232453" duration="3031000" />
-      <workItem from="1645463522639" duration="998000" />
+      <workItem from="1645463522639" duration="1297000" />
     </task>
     <task id="LOCAL-00001" summary="new test">
       <created>1630481308113</created>
@@ -115,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645463660920</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add test('correct todolist should be removed')">
+      <created>1645464770808</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645464770808</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +132,7 @@
     <MESSAGE value="new test" />
     <MESSAGE value="added to todolist-reducer removeTodolistAC" />
     <MESSAGE value="--" />
-    <option name="LAST_COMMIT_MESSAGE" value="--" />
+    <MESSAGE value="add test('correct todolist should be removed')" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test('correct todolist should be removed')" />
   </component>
 </project>

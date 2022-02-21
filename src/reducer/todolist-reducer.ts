@@ -1,3 +1,5 @@
+import {v1} from "uuid";
+
 export type FilterValuesType = 'All' | 'Active' | 'Completed';
 export type TodolistType = {
     id: string
@@ -13,12 +15,19 @@ export const todolistReducer = (state: TodolistType[], action: TodolistActionTyp
     }
 };
 type TodolistActionType =
-    RemoveTodolistType
+    RemoveTodolistType | AddTodolistType
 
 export type RemoveTodolistType = ReturnType<typeof removeTodolistAC>
 export const removeTodolistAC = (todolistId: string) => {
     return {
         type: 'Todolist/REMOVE-TODOLIST',
         todolistId
+    } as const
+};
+export type AddTodolistType = ReturnType<typeof addTodolistAC>
+export const addTodolistAC = (title: string) => {
+    return {
+        type: 'Todolist/ADD-TODOLIST',
+        title
     } as const
 };
