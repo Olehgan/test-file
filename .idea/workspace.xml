@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="587f081e-1cc6-4b81-8f44-2304df0f9330" name="Default Changelist" comment="new test">
-      <change beforePath="$PROJECT_DIR$/src/reducer/todolist-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducer/todolist-reducer.test.ts" afterDir="false" />
+    <list default="true" id="587f081e-1cc6-4b81-8f44-2304df0f9330" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/reducer/todolist-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducer/todolist-reducer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +77,7 @@
       <workItem from="1630577636839" duration="1395000" />
       <workItem from="1631084466466" duration="917000" />
       <workItem from="1645445232453" duration="3031000" />
-      <workItem from="1645463522639" duration="1297000" />
+      <workItem from="1645463522639" duration="1613000" />
     </task>
     <task id="LOCAL-00001" summary="new test">
       <created>1630481308113</created>
@@ -122,7 +121,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645464770808</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add addTodolistAC">
+      <created>1645464868810</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1645464868811</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add test('correct todolist should be add')">
+      <created>1645464954341</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1645464954341</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +146,8 @@
     <MESSAGE value="added to todolist-reducer removeTodolistAC" />
     <MESSAGE value="--" />
     <MESSAGE value="add test('correct todolist should be removed')" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test('correct todolist should be removed')" />
+    <MESSAGE value="add addTodolistAC" />
+    <MESSAGE value="add test('correct todolist should be add')" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test('correct todolist should be add')" />
   </component>
 </project>
