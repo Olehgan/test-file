@@ -1,5 +1,11 @@
 import {v1} from "uuid";
-import {addTodolistAC, removeTodolistAC, todolistReducer, TodolistType, updateTodolistAC,} from "./todolist-reducer";
+import {
+    addTodolistAC, changeFilterTodolistAC,
+    FilterValuesType,
+    removeTodolistAC,
+    todolistReducer,
+    TodolistType, updateTodolistAC,
+} from "./todolist-reducer";
 
 let todolistId1 = v1();
 let todolistId2 = v1();
@@ -34,4 +40,14 @@ test('correct todolist change its name', () => {
     expect(endState[0].title).toBe("What to learn");
     expect(endState[1].title).toBe(newTodolistTitle);
     expect(endState[1].filter).toBe('All')
+});
+
+test('correct todolist should be chang filter', () => {
+
+    let newTodolistFilter: FilterValuesType = 'Completed';
+
+    const endState = todolistReducer(startState, changeFilterTodolistAC(todolistId2, newTodolistFilter));
+
+    expect(endState[0].filter).toBe('All');
+    expect(endState[1].filter).toBe(newTodolistFilter)
 });
