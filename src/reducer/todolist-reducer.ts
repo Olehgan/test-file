@@ -14,12 +14,23 @@ export const todolistReducer = (state: TodolistType[], action: TodolistActionTyp
             return [...state, {id: v1(), title: action.title, filter: 'All'}];
         case 'Todolist/UPDATE-TODOLIST':
             return state.map(tl => tl.id === action.todolistId ? {...tl, title: action.title} : tl);
+        case'Todolist/CHANGE-FILTER-TODOLIST':
+            return state.map(tl => tl.id === action.todolistId ? {...tl, filter: action.filter} : tl);
         default:
             throw new Error("Error")
     }
 };
 type TodolistActionType =
-    RemoveTodolistType | AddTodolistType | UpdateTodolistType
+    RemoveTodolistType | AddTodolistType | UpdateTodolistType | ChangeFilterTodolistType
+
+export type ChangeFilterTodolistType = ReturnType<typeof changeFilterTodolistAC>
+export const changeFilterTodolistAC = (todolistId: string, filter: FilterValuesType) => {
+    return {
+        type: 'Todolist/CHANGE-FILTER-TODOLIST',
+        todolistId,
+        filter
+    } as const
+};
 
 export type RemoveTodolistType = ReturnType<typeof removeTodolistAC>
 export const removeTodolistAC = (todolistId: string) => {
