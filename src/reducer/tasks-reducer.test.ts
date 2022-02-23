@@ -1,4 +1,4 @@
-import {removeTaskAC, tasksReducer, TasksType} from "./tasks-reducer";
+import {addTaskAC, removeTaskAC, tasksReducer, TasksType} from "./tasks-reducer";
 
 let startState : TasksType = {}
 beforeEach(()=>{
@@ -23,7 +23,20 @@ test('correct task should be deleted from correct array', () => {
     expect(endState["todolistID2"].length).toBe(2);
 
 });
+test ('correct tasks should be add',()=>{
 
+    const newTitle = "new Title"
+
+    const endState = tasksReducer(startState, addTaskAC(newTitle,'todolistID2'))
+
+    expect(endState["todolistID1"].length).toBe(3);
+    expect(endState["todolistID1"][0].isDone).toBe(true);
+    expect(endState["todolistID1"][0].title).toBe("HTML&CSS");
+    expect(endState["todolistID2"].length).toBe(4);
+    expect(endState["todolistID2"][0].title).toBe(newTitle);
+    expect(endState["todolistID2"][0].isDone).toBe(false);
+
+});
 
 
 
