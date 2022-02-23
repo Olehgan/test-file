@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="587f081e-1cc6-4b81-8f44-2304df0f9330" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/reducer/todolist-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducer/todolist-reducer.test.ts" afterDir="false" />
+    <list default="true" id="587f081e-1cc6-4b81-8f44-2304df0f9330" name="Default Changelist" comment="add to todolist-reducer changeFilterTodolistAC">
+      <change afterPath="$PROJECT_DIR$/src/reducer/tasks-reducer.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducer/tasks-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducer/todolist-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducer/todolist-reducer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,7 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../socialNetwork-git/socialNetwork/.gitignore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/reducer" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -38,6 +47,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\it-kamasutra.com\project-Git\test-file-git\test\src\reducer" />
       <recent name="E:\it-kamasutra.com\test-file-git\test\src\test\reducer.test" />
       <recent name="E:\it-kamasutra.com\test-file-git\test\src\test" />
     </key>
@@ -78,7 +88,7 @@
       <workItem from="1630577636839" duration="1395000" />
       <workItem from="1631084466466" duration="917000" />
       <workItem from="1645445232453" duration="3031000" />
-      <workItem from="1645463522639" duration="1851000" />
+      <workItem from="1645463522639" duration="6331000" />
     </task>
     <task id="LOCAL-00001" summary="new test">
       <created>1630481308113</created>
@@ -150,7 +160,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645518396528</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add test('correct todolist should be chang filter')">
+      <created>1645519824124</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1645519824124</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add to todolist-reducer changeFilterTodolistAC">
+      <created>1645519872098</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1645519872098</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +189,8 @@
     <MESSAGE value="add test('correct todolist should be add')" />
     <MESSAGE value="add to todolist-reducer updateTodolistAC" />
     <MESSAGE value="add test('correct todolist change its name')" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test('correct todolist change its name')" />
+    <MESSAGE value="add test('correct todolist should be chang filter')" />
+    <MESSAGE value="add to todolist-reducer changeFilterTodolistAC" />
+    <option name="LAST_COMMIT_MESSAGE" value="add to todolist-reducer changeFilterTodolistAC" />
   </component>
 </project>
