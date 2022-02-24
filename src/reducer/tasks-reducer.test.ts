@@ -1,4 +1,4 @@
-import {addTaskAC, removeTaskAC, tasksReducer, TasksType} from "./tasks-reducer";
+import {addTaskAC, removeTaskAC, tasksReducer, TasksType, updateTaskAC} from "./tasks-reducer";
 
 let startState : TasksType = {}
 beforeEach(()=>{
@@ -35,6 +35,15 @@ test ('correct tasks should be add',()=>{
     expect(endState["todolistID2"].length).toBe(4);
     expect(endState["todolistID2"][0].title).toBe(newTitle);
     expect(endState["todolistID2"][0].isDone).toBe(false);
+
+});
+test('title of specified task should be changed',()=>{
+
+    const newTitle = "new Title"
+
+    const endState = tasksReducer(startState, updateTaskAC('1','todolistID2',newTitle,))
+    expect(endState['todolistID1'][0].title).toBe( "HTML&CSS");
+    expect(endState["todolistID2"][0].title).toBe(newTitle);
 
 });
 
