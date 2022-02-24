@@ -86,7 +86,7 @@
       <workItem from="1630577636839" duration="1395000" />
       <workItem from="1631084466466" duration="917000" />
       <workItem from="1645445232453" duration="3031000" />
-      <workItem from="1645463522639" duration="6766000" />
+      <workItem from="1645463522639" duration="7599000" />
     </task>
     <task id="LOCAL-00001" summary="new test">
       <created>1630481308113</created>
@@ -193,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645612945977</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add to tasks-reducer addTaskAC">
+      <created>1645613104906</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1645613104906</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +220,7 @@
     <MESSAGE value="add test ('correct task should be deleted from correct array')" />
     <MESSAGE value="add test('correct tasks should be add')" />
     <MESSAGE value="add to tasks-reducer removeTaskAC" />
-    <option name="LAST_COMMIT_MESSAGE" value="add to tasks-reducer removeTaskAC" />
+    <MESSAGE value="add to tasks-reducer addTaskAC" />
+    <option name="LAST_COMMIT_MESSAGE" value="add to tasks-reducer addTaskAC" />
   </component>
 </project>

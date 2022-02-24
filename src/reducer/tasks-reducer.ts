@@ -33,13 +33,25 @@ export const tasksReducer = (state = initialState, action: TasksActionType) => {
                 ...state, [action.todolistId]:
                     [{id: v1(), title: action.title, isDone: false}, ...state[action.todolistId]]
             }
+        case 'Tasks/UPDATE - TASK-TITLE':
+            return {
+                ...state, [action.todolistId]:
+                    state[action.todolistId].map(t => t.id === action.taskId ? {...t, title: action.title} : t)
+            }
 
         default:
             return state
     }
 };
-type TasksActionType =
-    RemoveTasksType | AddTasksType
+type TasksActionType = RemoveTasksType | AddTasksType | UpdateTasksType
+
+export type UpdateTasksType = ReturnType<typeof updateTaskAC>
+export const updateTaskAC = (taskId: string, todolistId: string, title: string) => {
+    return {
+        type: 'Tasks/UPDATE - TASK-TITLE',
+        todolistId, taskId, title
+    } as const
+};
 
 export type RemoveTasksType = ReturnType<typeof removeTaskAC>
 export const removeTaskAC = (taskId: string, todolistId: string,) => {
