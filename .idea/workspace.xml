@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="587f081e-1cc6-4b81-8f44-2304df0f9330" name="Default Changelist" comment="add to todolist-reducer changeFilterTodolistAC">
+    <list default="true" id="587f081e-1cc6-4b81-8f44-2304df0f9330" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducer/tasks-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducer/tasks-reducer.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducer/tasks-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducer/tasks-reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducer/todolist-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducer/todolist-reducer.ts" afterDir="false" />
     </list>
@@ -86,7 +88,7 @@
       <workItem from="1630577636839" duration="1395000" />
       <workItem from="1631084466466" duration="917000" />
       <workItem from="1645445232453" duration="3031000" />
-      <workItem from="1645463522639" duration="7599000" />
+      <workItem from="1645463522639" duration="8492000" />
     </task>
     <task id="LOCAL-00001" summary="new test">
       <created>1630481308113</created>
@@ -200,7 +202,28 @@
       <option name="project" value="LOCAL" />
       <updated>1645613104906</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add to tasks-reducer updateTaskAC">
+      <created>1645697255563</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1645697255563</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add test ('title of specified task should be changed')">
+      <created>1645697356690</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1645697356690</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add initialState to todolist-reducer">
+      <created>1645697407009</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1645697407009</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +244,9 @@
     <MESSAGE value="add test('correct tasks should be add')" />
     <MESSAGE value="add to tasks-reducer removeTaskAC" />
     <MESSAGE value="add to tasks-reducer addTaskAC" />
-    <option name="LAST_COMMIT_MESSAGE" value="add to tasks-reducer addTaskAC" />
+    <MESSAGE value="add to tasks-reducer updateTaskAC" />
+    <MESSAGE value="add test ('title of specified task should be changed')" />
+    <MESSAGE value="add initialState to todolist-reducer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add initialState to todolist-reducer" />
   </component>
 </project>
