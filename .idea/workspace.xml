@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="587f081e-1cc6-4b81-8f44-2304df0f9330" name="Default Changelist" comment="add to tasks-reducer changeTaskStatusAC">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="587f081e-1cc6-4b81-8f44-2304df0f9330" name="Default Changelist" comment="add to tasks-reducer">
       <change beforePath="$PROJECT_DIR$/src/reducer/tasks-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducer/tasks-reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducer/todolist-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducer/todolist-reducer.ts" afterDir="false" />
     </list>
@@ -87,7 +86,7 @@
       <workItem from="1630577636839" duration="1395000" />
       <workItem from="1631084466466" duration="917000" />
       <workItem from="1645445232453" duration="3031000" />
-      <workItem from="1645463522639" duration="9261000" />
+      <workItem from="1645463522639" duration="9604000" />
     </task>
     <task id="LOCAL-00001" summary="new test">
       <created>1630481308113</created>
@@ -236,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645781052950</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add test('new array should be added when new todolist is added')">
+      <created>1645945610345</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1645945610345</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +268,7 @@
     <MESSAGE value="add initialState to todolist-reducer" />
     <MESSAGE value="add test('status of specified task should be changed')" />
     <MESSAGE value="add to tasks-reducer changeTaskStatusAC" />
-    <option name="LAST_COMMIT_MESSAGE" value="add to tasks-reducer changeTaskStatusAC" />
+    <MESSAGE value="add test('new array should be added when new todolist is added')" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test('new array should be added when new todolist is added')" />
   </component>
 </project>
