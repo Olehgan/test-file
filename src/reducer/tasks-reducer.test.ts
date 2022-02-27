@@ -1,4 +1,5 @@
 import {addTaskAC, changeTaskStatusAC, removeTaskAC, tasksReducer, TasksType, updateTaskAC} from "./tasks-reducer";
+import {addTodolistAC} from "./todolist-reducer";
 
 let startState : TasksType = {}
 beforeEach(()=>{
@@ -53,6 +54,16 @@ test('status of specified task should be changed',()=>{
     expect(endState["todolistID1"][0].isDone).toBe(true);
     expect(endState["todolistID2"][0].isDone).toBe(false);
 });
+test('new array should be added when new todolist is added', () => {
+ const endState = tasksReducer(startState, addTodolistAC("new todolist"))
+    const keys = Object.keys(endState);
+    const newKey = keys.find(k => k !== "todolistID1" && k !== "todolistID2");
+    if (!newKey) {
+        throw Error("new key should be added")
+    }
 
+    expect(keys.length).toBe(3);
+    expect(endState[newKey]).toEqual([]);
+});
 
 
